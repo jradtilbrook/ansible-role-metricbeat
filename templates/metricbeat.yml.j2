@@ -1,7 +1,7 @@
 {{ ansible_managed | comment('plain', prefix='#################################', postfix='#################################') }}
 ---
 ## Log prospectors
-metricbeat.modules
+metricbeat.modules:
   {{ metricbeat_modules | to_yaml | indent(2) }}
 
 

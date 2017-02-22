@@ -28,3 +28,9 @@
     group: root
     mode: 0644
   notify: restart metricbeat
+
+- name: start and enable metricbeat
+  service:
+    name: metricbeat
+    state: started
+    enabled: yes

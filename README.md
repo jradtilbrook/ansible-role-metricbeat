@@ -1,4 +1,4 @@
-# Ansible Role: Metricbeat
+# Ansible Role: Metricbeat [![Build Status](https://travis-ci.org/jradtilbrook/ansible-role-metricbeat.svg?branch=master)](https://travis-ci.org/jradtilbrook/ansible-role-metricbeat)
 
 This role installs and configures Metricbeat 5.x for the Elastic stack.
 
