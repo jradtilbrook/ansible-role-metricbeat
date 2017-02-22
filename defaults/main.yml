@@ -2,6 +2,12 @@
 # modules configuration
 metricbeat_modules:
   - module: system
+    metricsets:
+      - filesystem
+    period: 1m
+    filters:
+      # only include the root partition
+      - drop_event.when.regexp.mount_point: ^/.+$
 
 # output configuration
 metricbeat_output:
