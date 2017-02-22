@@ -10,5 +10,7 @@ output:
   {{ metricbeat_output | to_yaml | indent(2) }}
 
 
+{% if metricbeat_general_config | length > 0 %}
 ## General configuration
 {{ metricbeat_general_config | to_yaml | indent(2) }}
+{% endif %}
