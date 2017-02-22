@@ -1,0 +1,13 @@
+---
+# modules configuration
+metricbeat_modules:
+  - module: system
+
+# output configuration
+metricbeat_output:
+  elasticsearch:
+    hosts:
+      - localhost:9200
+
+# general/global config options
+metricbeat_general_config: {}

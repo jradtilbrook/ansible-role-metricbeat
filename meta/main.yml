@@ -1,0 +1,16 @@
+---
+dependencies: []
+
+galaxy_info:
+  author: jradtilbrook
+  description: Metricbeat (v5.x) for the Elastic stack on Ubuntu
+  license: MIT
+  min_ansible_version: 2.0
+  platforms:
+    - name: Ubuntu
+      versions:
+        - all
+  galaxy_tags:
+    - elasticsearch
+    - metrics
+    - system
