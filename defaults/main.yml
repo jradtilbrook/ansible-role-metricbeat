@@ -1,4 +1,7 @@
 ---
+# change this to `latest` to always get the most up to date version
+metricbeat_install_state: present
+
 # modules configuration
 metricbeat_modules:
   - module: system

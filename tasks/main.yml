@@ -18,7 +18,7 @@
 - name: install metricbeat
   apt:
     pkg: metricbeat
-    state: present
+    state: "{{ metricbeat_install_state }}"
 
 - name: copy metricbeat configuration
   template:
