@@ -24,8 +24,8 @@ Metricbeat documentation for the structure and possible outputs.
 the name, extra fields or tags to apply to each event. More info can be found in
 the Metricbeat documentation.
 
-`metricbeat_install_state`: This is useful for updating Metricbeatrafana to
-newer versions after it has already been installed. Use `latest` to achieve this
+`metricbeat_install_state`: This is useful for updating Metricbeat to newer
+versions after it has already been installed. Use `latest` to achieve this
 functionality.
 
 
